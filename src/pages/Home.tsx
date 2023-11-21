@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import Kidmend from "../assets/Intro.jpg";
+import Kidmend from "../assets/intro.jpg";
 
 const Home = () => {
   return (
