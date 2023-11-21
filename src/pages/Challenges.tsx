@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import image1 from "../assets/PXL_20231003_073850551.jpg";
 import image3 from "../assets/PXL_20231024_111611733.jpg";
 import image4 from "../assets/PXL_20231103_124330546.jpg";
+import Kidmend from "../assets/Kidmend.jpeg";
 const challenges = [
     {
         name: "Introduction",
@@ -18,7 +19,7 @@ const challenges = [
         role: "Challenge 2",
         content:
             "Choose an african community, and create a story about an african character through the lens of the lifestyle of that community. The goal is to tell the untold story of the continent.",
-        image: "https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/081.jpg",
+        image: "https://plus.unsplash.com/premium_photo-1679350312952-194ec48e276f?q=80&w=1783&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         link: "https://docs.google.com/presentation/d/1_A0cXGDAhcWPSjxKSW6_AqkyoEKBZbAwTlYyMXweApo/edit?usp=sharing"
     },
     {
@@ -33,7 +34,7 @@ const challenges = [
         name: "Hunt for Treasure",
         role: "Challenge 4",
         content:
-            "Voluptatem harum voluptas dignissimos magnam explicabo dolor modi. Doloremque repellendus earum ad aut.",
+            "No thief, however skillful, can rob one of the knowledge, and that is why knowledge is the best and safest treasure to acquire.",
         image: image4,
         link:"https://docs.google.com/presentation/d/1gcDdHVZ68hlb6hbLl_BctdZvIrmUtqMZVT2U4PBvDXQ/edit?usp=sharing"
     },
@@ -41,8 +42,8 @@ const challenges = [
         name: "Launch Mission V2",
         role: "Challenge 5",
         content:
-            "Exercitationem omnis sapiente ipsum consectetur sunt est. Voluptas veniam aut dolorum culpa modi quo.",
-        image: "https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/084.jpg",
+            "Based on your Think Tank's mission, the problem you have identified, and researched on. This is your opportunity to launch the solution to the problem identified",
+        image: Kidmend,
         link: "https://docs.google.com/presentation/d/1j6nnqxFvX-NHaF5KvC8wt-SIJSaF2l80XPGs87iV4X8/edit?usp=sharing",
     },
 ];
