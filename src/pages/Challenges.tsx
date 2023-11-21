@@ -11,6 +11,7 @@ const challenges = [
         content:
             "Each member of the team should create a 30 seconds elevator pitch on what they're passionate about, why, and what they want to do to solve it as well as what htey bring to the team.",
         image: image1,
+        link: "https://www.youtube.com/watch?v=mbd3kjy2t1o"
     },
     {
         name: "Discover Africa",
@@ -18,6 +19,7 @@ const challenges = [
         content:
             "Choose an african community, and create a story about an african character through the lens of the lifestyle of that community. The goal is to tell the untold story of the continent.",
         image: "https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/081.jpg",
+        link: "https://docs.google.com/presentation/d/1_A0cXGDAhcWPSjxKSW6_AqkyoEKBZbAwTlYyMXweApo/edit?usp=sharing"
     },
     {
         name: "HELP-LAB",
@@ -25,6 +27,7 @@ const challenges = [
         content:
             "Community engagement is striving towards improving the quality of life of a given community.",
         image: image3,
+        link: "https://www.youtube.com/watch?v=Z-7NZQDh_q0"
     },
     {
         name: "Hunt for Treasure",
@@ -32,6 +35,7 @@ const challenges = [
         content:
             "Voluptatem harum voluptas dignissimos magnam explicabo dolor modi. Doloremque repellendus earum ad aut.",
         image: image4,
+        link:"https://docs.google.com/presentation/d/1gcDdHVZ68hlb6hbLl_BctdZvIrmUtqMZVT2U4PBvDXQ/edit?usp=sharing"
     },
     {
         name: "Launch Mission V2",
@@ -39,6 +43,7 @@ const challenges = [
         content:
             "Exercitationem omnis sapiente ipsum consectetur sunt est. Voluptas veniam aut dolorum culpa modi quo.",
         image: "https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/084.jpg",
+        link: "https://docs.google.com/presentation/d/1j6nnqxFvX-NHaF5KvC8wt-SIJSaF2l80XPGs87iV4X8/edit?usp=sharing",
     },
 ];
 
@@ -68,11 +73,13 @@ const Challenges = () => {
                                     </div>
                                 </div>
                                 <div className="md:mb-12 lg:mb-0">
+                                    <a href={challenge.link} target="_blank" rel="noopener noreferrer">
                                     <img
                                         src={challenge.image}
                                         className="lg:rotate-[6deg] w-full h-[400px] rounded-lg shadow-lg dark:shadow-black/20"
                                         alt={`image-${index}`}
                                     />
+                                    </a>
                                 </div>
                             </div>
                         ))}
