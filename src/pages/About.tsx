@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="aboutPage">
       <NavBar />
-      <section className="mt-4 mb-32">
+      <section className="mt-4 mb-20">
         {/* Jumbotron */}
         <div className="container mx-auto text-center lg:text-left xl:px-32">
           <div className="flex grid items-center lg:grid-cols-2">
