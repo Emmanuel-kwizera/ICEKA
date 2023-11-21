@@ -1,4 +1,5 @@
 import Home from "../pages/Home";
+import About from "../pages/About";
 import Team from "../pages/Team";
 import Challenges from "../pages/Challenges";
 import Solution from "../pages/Solution";
@@ -9,6 +10,7 @@ const App = () => {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/team" element={<Team />} />
         <Route path="/challenges" element={<Challenges />} />
         <Route path="/solution" element={<Solution />} />

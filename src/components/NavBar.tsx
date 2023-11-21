@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import logo from "../assets/logo.jpeg";
 type Props = {};
 
 const NavBar = (props: Props) => {
@@ -19,7 +20,9 @@ const NavBar = (props: Props) => {
           <div className="lg:p-3 py-4 pl-2">
             {" "}
             <a href="/">
-              Logo
+            <h1 className="text-black text-5xl font-bold tracking-tight md:text-6xl xl:text-4xl">
+                ICEKA
+              </h1>
             </a>{" "}
           </div>
         </div>
@@ -31,7 +34,7 @@ const NavBar = (props: Props) => {
             </li>
             <li className="px-2 text-md font-normal">
               {" "}
-              <a href="/projects">About Us</a>{" "}
+              <a href="/about">About Us</a>{" "}
             </li>
             <li className="px-2 text-md font-normal">
               {" "}
@@ -50,7 +53,7 @@ const NavBar = (props: Props) => {
         <div className="lg:hidden w-1/2">
           <button
             type="button"
-            className="block text-white hover:text-gray-300 focus:text-gray-300 focus:outline-none float-right pr-4 py-5"
+            className="block text-black hover:text-gray-300 focus:text-gray-300 focus:outline-none float-right pr-4 py-5"
             onClick={handleToggle}
           >
             <svg
@@ -76,36 +79,25 @@ const NavBar = (props: Props) => {
             </svg>
           </button>
           {isOpen && (
-            <div className="bg-[#00A3FF] p-2">
+            <div className="bg-[#d6d2b7] p-2">
               <div className="navigations">
-                <ul className="text-white">
+                <ul className="text-black">
                   <li className="py-2">
                     <a href="/">Home</a>
                   </li>
                   <li className="py-2">
-                    <a href="/projects">Projects</a>
+                  <a href="/about">About Us</a>
                   </li>
                   <li className="py-2">
-                    <a href="/expertize">Experts</a>
+                  <a href="/team">Our Team</a>
                   </li>
                   <li className="py-2">
-                    <a href="/partners">Partners</a>
+                  <a href="/challenges">E-Lab Challenges</a>
                   </li>
                   <li className="py-2">
-                    <a href="/solutions">Solutions</a>
-                  </li>
-                  <li className="py-2">
-                    <a href="/csr">CSR</a>
+                    <a href="/solution">Solution</a>
                   </li>
                 </ul>
-              </div>
-              <div className="lg:w-2/12 lg:p-4 lg:flex mt-2">
-                <a
-                  href="/contactUs"
-                  className="linear hover:bg-blue-700 text-white font-bold py-2 px-9 rounded-full text-sm font-thin"
-                >
-                  Contact Us
-                </a>
               </div>
             </div>
           )}
