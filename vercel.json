@@ -1,6 +1,8 @@
 {
-  "fallback": {
-    "rewrites": [{ "source": "/**", "destination": "/" }]
-  },
-  "trailingSlash": true
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
 }
